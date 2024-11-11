@@ -1,0 +1,205 @@
+        /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+        /* Encabezado */
+header {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    color: #737373;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
+
+header h1 {
+    width: 100%;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+        /* Sección de bienvenida */
+.bienvenida {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.bienvenida h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.bienvenida p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    color: #333;
+    margin: 20px;
+}
+
+/* Estilos para la galería */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+
+        /* Galería de productos */
+/*.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+}
+
+.producto p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #777;
+}
+
+.producto .precio {
+    font-size: 1.2em;
+    color: #ff7b54;
+    font-weight: bold;
+}
+
+        /* Sección de contacto */
+.contacto {
+    width: 100%;
+    background-color: #ffffff;
+    /* color: #737373; */
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contacto p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.contacto a {
+    width: 100%;
+    color: #333;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/*.contacto a:hover {
+    background-color: #F2DE77;
+    color: white;
+}*/
+
+        /* Pie de página */
+footer {
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+}
+
+.imgReduc {
+    width: 50px;
+    height: 50px;
+}
+
+#numero {
+    margin-left: 0;
+}
+
+.Whatsapp-href p{
+    margin-right: 0;
+}
+
+        /* Responsivo */
+@media (max-width: 768px) {
+    .producto {
+        width: 100%;
+        max-width: 500px;
+    }
+}/*
